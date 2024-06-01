@@ -29,7 +29,7 @@ const NewTaskModal = (props) => {
   return (
     <div className='fixed inset-0 z-[1000] !mt-0 w-full h-screen flex flex-col justify-center items-center overflow-auto bg-white bg-opacity-10 backdrop-blur-sm'>
 
-        <div className='min-w-[400px] md:w-[650px]  bg-white p-6 rounded-md'>
+        <div className='min-w-[350px] md:w-[650px]  bg-white p-6 rounded-md'>
             <button onClick={()=>setModalStatus(false)} className=' flex  items-center gap-x-3  bg-[#84fa84] border-2 rounded-md border-white px-3 py-3 w-fit font-semibold'>
                 <div>Close</div>
                 <RxCross2/>
